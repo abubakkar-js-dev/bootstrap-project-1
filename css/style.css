@@ -1,0 +1,245 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.section-title h3{
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.common-hr{
+    border: 5px dotted white;
+    border-bottom: none;
+    margin-bottom: 0px;
+    width: 50px;
+    margin: 0 auto;
+}
+/* ===============================================
+         header section desing starts from here
+   =============================================== */
+
+header{
+    background-image: url('../imeges/banner.jpeg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* .navbar starts here */
+    .navbar{
+        background-color: rgba(0,0,0,0.2);
+    }
+
+/* .navbar starts here */
+
+/* banner section starts from here */
+
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+body{
+    -webkit-animation: tracking-in-expand-fwd-bottom 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand-fwd-bottom 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+.btn-wrap button{
+    margin-right: 15px;
+}
+
+.nav-item > .nav-link{
+    text-align: white;
+    transition: 0.5s;
+}
+.nav-item > .nav-link:hover{
+    background-color: black;
+    border-radius: 7px;
+    transform: scale(1.1);
+}
+
+
+
+
+/* banner section ends here */
+
+/* ===============================================
+         header section desing ends  here
+   =============================================== */
+
+   /* ===============================================
+         features section desing starts from  here
+   =============================================== */
+
+#features{
+    background-color: #EADDD2;
+    padding: 5% 8%;
+}
+.features-col{
+    padding: 15px;
+    margin: 20px 0px;
+    border: 2px solid #ff02c0;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 7px black;
+}
+.icon-style{
+    background-color: #bb0acc;
+    border: 2px solid lightblue;
+    color: white;
+    margin: 3px 0px;
+    padding: 14px;
+}
+
+
+
+
+      /* ===============================================
+         features section desing ends  here
+        =============================================== */
+
+    /* ===============================================
+            about me section desing starts from  here
+       =============================================== */
+
+    #about-me{
+        background-color: #e8ded2;
+        padding: 4% 8%;
+    }
+    #about-me p{
+        font-size: 0.9rem;
+        font-weight: lighter;
+        margin-bottom: 0px;
+    }
+    #about-me a{
+        font-size: 0.9rem;
+        font-weight: lighter;
+        color: black;
+        text-decoration: underline;
+    }
+    .achive-desc-wrap> p{
+        font-size: 1rem;
+        font-weight: lighter;
+        margin-bottom: 5px;
+    }
+    .achive-desc-wrap .sub-title{
+        font-weight: 700 !important;
+    }
+
+
+    /* ===============================================
+            about me section desing ends  here
+       =============================================== */
+
+    /* ===============================================
+            tutorials  section desing starts from  here
+       =============================================== */
+    #tutorials{
+        padding: 4% 10%;
+        background-color: #a3d2ca;
+    }
+    #tutorials:nth-child(2){
+        margin-bottom: 7px;
+    }
+    .card{
+        border: 1px solid #ff02c0;
+        transition: 0.3s;
+    
+    }
+    .card:hover{
+        transform: scale(1.06);
+        box-shadow: 2px 6px 5px black;
+    }
+
+
+
+  
+
+
+    /* ===============================================
+            tutrials  section desing ends  here
+       =============================================== */
+
+/*feedback section starts  */
+#feedback{
+    padding: 5% 6%;
+    background-color: #5FA7A9;
+    color: white;
+}
+.feedback-image{
+    width: 200px;
+    height: 200px;
+}
+.carousel-item{
+    text-align: center;
+    padding: 35px;
+    font-weight: lighter;
+}
+.carousel-item p{
+    font-family:  monospace;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+
+
+
+
+
+/*feedback section ends  */
+
+/* contact me section desing starts from here */
+
+#contact-me{
+    padding: 3% 10%;
+    background: lightblue;
+    margin: 15px 0px;
+}
+#contact-me textarea{
+    resize: none;
+}
+
+/* contact me section desing ends here */
+
+/* footer section desing starts from here */
+    footer{
+        padding: 1% 5%;
+        background-color: lightseagreen;
+    }
+    footer a{
+        padding: 9px;
+        color: white;
+        font-size: 18px;
+        margin: 0px 0px;
+        text-decoration: none;
+    }
+    footer a:hover{
+        color: black;
+    }
+/* footer section desing ends here */
+
+
+       
